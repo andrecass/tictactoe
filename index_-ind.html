@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="">
+
+
+
+  <title>Bootstrap</title>
+
+</head>
+
+<style>
+  .square {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(47, 52, 71);
+    margin-top: 1em;
+    margin-left: 1em;
+    border-radius: 10px;
+  }
+  
+</style>
+
+<body style="background-color: rgb(236, 233, 240);"> 
+  
+  
+  <div class="d-flex justify-content-center mt-4">
+    <h1 class="display-3 font-weight-bold">TIC <span class="display-2">TAC</span> TOE</h1>
+  </div>
+  <hr class="bg-dark">
+  <div class="container" style="height: 500px;">
+    
+    <div class="d-flex justify-content-center mt-4">
+            
+          <div class="align-self-center">
+
+              <!--Agrupamento A-->
+                <div class="row">
+                     
+                  <div class="col-sm-">
+                    <div class="square" type='button' onclick="opcao('z7', 7)">
+                      <div class='d-flex justify-content-center '>
+                        <div class='text-white  display-3 font-weight-bold' id="z7"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-">
+                    <div class="square" type='button' onclick="opcao('z8', 8)">
+                      <div class='d-flex justify-content-center '>
+                        <div class='text-white  display-3 font-weight-bold' id="z8"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-">
+                    <div class="square" type='button' onclick="opcao('z9', 9)">
+                      <div class='d-flex justify-content-center '>
+                        <div class='text-white  display-3 font-weight-bold' id="z9"></div>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+              <!--//-----------------------------------------------------------//-->  
+        
+              <!--Agrupamento B-->
+                <div class="row">
+                  
+                  <div class="col-sm-">
+                    <div class="square" type='button' onclick="opcao('z4', 4)">
+                      <div class='d-flex justify-content-center '>
+                        <div class='text-white  display-3 font-weight-bold' id="z4"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-">
+                    <div class="square" type='button' onclick="opcao('z5', 5)">
+                      <div class='d-flex justify-content-center '>
+                        <div class='text-white  display-3 font-weight-bold' id="z5"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-">
+                    <div class="square" type='button' onclick="opcao('z6', 6)">
+                      <div class='d-flex justify-content-center '>
+                        <div class='text-white  display-3 font-weight-bold' id="z6"></div>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>    
+              <!--//-----------------------------------------------------------//-->  
+              
+              <!--Agrupamento C-->
+                <div class="row">
+                  
+                  <div class="col-sm-">
+                    <div class="square" type='button' onclick="opcao('z1', 1)">
+                      <div class='d-flex justify-content-center '>
+                        <div class='text-white  display-3 font-weight-bold' id="z1"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-">
+                    <div class="square" type='button' onclick="opcao('z2', 2)">
+                      <div class='d-flex justify-content-center '>
+                        <div class='text-white  display-3 font-weight-bold' id="z2"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-">
+                    <div class="square" type='button' onclick="opcao('z3', 3)">
+                      <div class='d-flex justify-content-center '>
+                        <div class='text-white  display-3 font-weight-bold' id="z3"></div>
+                      </div>
+                    </div>
+                
+                </div>
+              <!--//-----------------------------------------------------------//-->
+                
+          </div>
+    </div>
+
+  
+  </div>     
+  
+<hr class="bg-dark mt-4">  
+
+<div>
+  <div class='d-flex justify-content-center  font-weight-bold' id='resultado'>--------</div>
+</div>
+
+  <script src="script.js"></script>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
